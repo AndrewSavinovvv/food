@@ -62,6 +62,13 @@
   position: relative;
   font-family: Poppins sans-serif;
 }
+.info__list-item p{
+  color: #3F4255;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 5px;
+  font-family: Poppins sans-serif;
+}
 
 .info__list-item span::after {
   content: "";
