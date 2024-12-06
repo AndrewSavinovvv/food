@@ -75,6 +75,7 @@ background: #F2F4FA;
   height: 68px;
   width: 149px;
   margin-top: 25px;
+  margin-bottom: 18px;
 }
 .restarans__list-right {
   position: relative;
