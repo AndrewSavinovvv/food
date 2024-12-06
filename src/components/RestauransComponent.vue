@@ -62,7 +62,7 @@ background: #F2F4FA;
   align-items: center;
   background: #fff;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 16px;
+
 }
 
 .restarans__list {
