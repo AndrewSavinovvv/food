@@ -33,13 +33,12 @@
         </ul>
       </div>
       <div class="footer__center">
-        <h6>About us</h6>
+        <h6>Contact us</h6>
         <ul>
-          <li>Concept</li>
-          <li>Franchise</li>
-          <li>Business</li>
-          <li>Restaurant signup</li>
-          <li>For Investors</li>
+          <li>Yellow kitchen Paris 11</li>
+          <li>69 avenue de la Republique 75011 <br> Paris</li>
+          <li>0800 111 126</li>
+          <li>contact@yellowkitchens.com</li>
         </ul>
       </div>
     </div>

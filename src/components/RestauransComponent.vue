@@ -63,6 +63,7 @@ background: #F2F4FA;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .restarans__list {
   display: flex;
