@@ -57,9 +57,10 @@
   align-items: center;
   justify-content: center;
   font-size: 58px;
-  font-weight: bold;
+  font-weight: 600;
   padding-top: 5px;
   position: relative;
+  font-family: Poppins sans-serif;
 }
 
 .info__list-item span::after {
@@ -67,11 +68,11 @@
   position: absolute;
   top: -20px;
   left: 0;
-  width: 126px;  /* Размер круга */
-  height: 126px;  /* Размер круга */
-  border-radius: 50%;  /* Круглая форма */
-  border: 1px solid #B79C10;  /* Черная граница */
-  background-color: transparent; /* Прозрачный фон */
-  z-index: 1;  /* Убедитесь, что круг находится за основным контентом */
+  width: 126px;
+  height: 126px;
+  border-radius: 50%;
+  border: 1px solid #B79C10;
+  background-color: transparent;
+  z-index: 1;
 }
 </style>
