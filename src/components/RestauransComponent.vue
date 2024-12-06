@@ -1,5 +1,12 @@
 <script setup>
-
+import img from "@/assets/img/burgers.png"
+import photo from "@/assets/img/logo-rest.png"
+const restaurants = [
+  { id: 1, image: img, logo: photo },
+  { id: 1, image: img, logo: photo },
+  { id: 1, image: img, logo: photo },
+  { id: 1, image: img, logo: photo },
+];
 </script>
 
 <template>
@@ -11,24 +18,14 @@
       </button>
     </div>
     <div class="restarans__list">
-<!--      <img class="restarans__list-left" src="@/assets/img/Button.png" alt="">-->
-      <div class="restarans__list-item">
-        <img src="@/assets/img/burgers.png" alt="">
-        <img class="restarans__list-item-title" src="@/assets/img/logo-rest.png" alt="">
+      <div
+          v-for="restaurant in restaurants"
+          :key="restaurant.id"
+          class="restarans__list-item"
+      >
+        <img :src="restaurant.image" alt="Restaurant Image" />
+        <img class="restarans__list-item-title" :src="restaurant.logo" alt="Restaurant Logo" />
       </div>
-      <div class="restarans__list-item">
-        <img src="@/assets/img/burgers.png" alt="">
-        <img class="restarans__list-item-title" src="@/assets/img/logo-rest.png" alt="">
-      </div>
-      <div class="restarans__list-item">
-        <img src="@/assets/img/burgers.png" alt="">
-        <img class="restarans__list-item-title" src="@/assets/img/logo-rest.png" alt="">
-      </div>
-      <div class="restarans__list-item">
-        <img src="@/assets/img/burgers.png" alt="">
-        <img class="restarans__list-item-title" src="@/assets/img/logo-rest.png" alt="">
-      </div>
-<!--      <img class="restarans__list-right" src="@/assets/img/Button1.png" alt="">-->
     </div>
   </div>
 </template>
@@ -63,12 +60,17 @@ background: #F2F4FA;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
 }
+
 .restarans__list {
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
+  gap: 24px;
 }
 .restarans__list-item-title {
   height: 68px;
