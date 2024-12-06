@@ -5,7 +5,7 @@
   <footer class="footer">
     <div class="footer__main container">
       <div class="footer__left">
-        <img class="footer__left-logo" src="@/assets/img/yellowkitchen.png" alt="">
+        <img class="footer__left-logo" src="@/assets/img/Logo.png" alt="">
         <div class="footer__left-line"></div>
         <div class="footer__app">
           <img src="@/assets/img/app-img1-1.png" alt="">
